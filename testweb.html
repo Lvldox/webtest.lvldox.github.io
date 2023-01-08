@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <!-- include particles.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>
+      body {
+        background-color: #22adbd;
+        height: 2000px; /* or any other value */
+        overflow-y: scroll;
+      }
+      h1 {
+        font-family: 'Comfortaa', sans-serif;
+        text-align: center;
+      }
+      .button {
+        background-color: black;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-family: 'Comfortaa', sans-serif;
+        margin-top: 50px;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: transform 0.1s;
+      }
+      .button:hover {
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hypixel SS (HSS) Client is a modified version of BatMod</h1>
+    <div style="text-align: center;">
+      <a href="https://app.mediafire.com/1izhypyfikekq" class="button">Download</a>
+      <a href="https://discord.gg/WCR4kQfe" class="button">Contact</a>
+    </div>
+    <!-- create a container element for the particles -->
+    <div id="particles-js"></div>
+    <!-- additional buttons -->
+    <div id="buttons" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <a href="#" class="button" style="
+    </div>
+    <!-- initialize particles -->
+    <script>
+      particlesJS.load('particles-js', 'path/to/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
+  </body>
+</html>
